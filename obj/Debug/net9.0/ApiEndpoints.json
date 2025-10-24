@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "CodeRefactoring.Controllers.AnimalController",
+    "Method": "AddAnimal",
+    "RelativePath": "api/Animal/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner",
+        "Type": "CodeRefactoring.Data.Models.User",
+        "IsRequired": true
+      },
+      {
+        "Name": "age",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeRefactoring.Controllers.AnimalController",
+    "Method": "AgeUp",
+    "RelativePath": "api/Animal/ageup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeRefactoring.Controllers.AnimalController",
+    "Method": "DeleteAnimal",
+    "RelativePath": "api/Animal/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeRefactoring.Controllers.AnimalController",
+    "Method": "GetAllAnimals",
+    "RelativePath": "api/Animal/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeRefactoring.Controllers.AnimalController",
+    "Method": "GetOneAnimal",
+    "RelativePath": "api/Animal/getone/{x}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "x",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeRefactoring.Controllers.AnimalController",
+    "Method": "HealAnimal",
+    "RelativePath": "api/Animal/heal/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

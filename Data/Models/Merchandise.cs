@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 using CodeRefactoring.Constants;
-namespace CodeRefactoring.Models2
+namespace CodeRefactoring.Data.Models
 {
     public class Merchandise
     {
@@ -11,7 +11,7 @@ namespace CodeRefactoring.Models2
         }
 
         [Key]
-        public string Id { get; set; }
+        public string Id { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(MerchandiseConstants.NameMaxLength)]

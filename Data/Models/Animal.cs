@@ -1,4 +1,4 @@
-namespace CodeRefactoring.Models
+namespace CodeRefactoring.Data.Models
 {
     public class Animal
     {
